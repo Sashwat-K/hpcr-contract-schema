@@ -4,5 +4,5 @@ import (
 	_ "embed"
 )
 
-//go:embed certificate/hpse-contract-schema-1.0.56.json
+//go:embed schema/hpse-contract-schema.json
 var ContractSchema string
